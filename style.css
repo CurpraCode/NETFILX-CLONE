@@ -1,0 +1,122 @@
+*{
+	margin: 0px;
+
+}
+body{
+	background-image: url(deadpool.jpg);
+	color: white;
+}
+header{
+	display: flex;
+	margin-top: 1%;
+	justify-content: space-between;
+	align-items: center;
+}
+nav{
+	display: flex;
+	
+}
+.links{
+	display: flex;
+}
+.links li {
+	list-style-type: none;
+	margin: 10%;
+}
+a{
+	text-decoration: none;
+	color: white;
+	letter-spacing: 3px;
+}
+a:hover{
+	text-shadow: 4px 4px 10px #FF0000;
+}
+.svg-netflix-logo{
+	fill: red;
+	height: 30px;
+	margin-left: 20%;
+}
+
+.search-box{
+	
+	background-color: transparent;
+	border: 2px solid;
+	border-color: white;
+	border-radius: 55px;
+	width: 20%;
+	margin-right: 9%;
+	
+}
+#input{
+	background-color: transparent;
+	border-color: transparent;
+	padding-left: 15px;
+	color: white;
+	font-size: 15px;
+	width: 60%;
+}
+
+.search-icon{
+	color:  white;
+	width: 16px;
+}
+.search-svg{
+	
+	display: flex;
+	margin-left: 25px;
+	padding: 10px;
+	background-color: transparent;
+	align-items: center;
+	border-color: transparent;
+	border-radius: 30px;
+	width: 65%;
+}
+.svg-inline--fa{
+	fill: white;
+}
+
+.set-div{
+	display: flex;
+	text-align: justify;
+	margin-right: 700px;
+	margin-bottom: 15px;
+}
+
+main{
+	margin-left: 5%;
+	margin-top: 5%;
+}
+h1{
+	margin-bottom: 20px;
+	letter-spacing: 5px;
+}
+
+.set-div2 p{
+	margin-top: 15px;
+	color: grey;
+}
+.set-div2 span{
+	margin-right: 40px;
+}
+.select-card{
+	display: flex;
+}
+
+#item1{
+	margin-right: 20px;
+	margin-top: 25px;
+	background-color: purple;
+	padding: 15px;
+	font-size: 15px;
+}
+
+#item2{
+	margin-right: 20px;
+	margin-top: 25px;
+	background-color: red;
+	padding: 15px;
+	font-size: 15px;
+}
+h2 i{
+	padding: 5px;
+}
